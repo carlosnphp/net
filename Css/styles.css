@@ -19,6 +19,7 @@
   .wrapper{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1rem;
   }
   
   .wrapper-cta{
@@ -127,23 +128,12 @@
     align-items: center;
   }
   
-  .hero-cta{
-  
-  }
-  
-  .hero-image{
-  }
   
   .bg-verdin{
     background: #eaf4ef;
     color: #798252;
   }
   
-  
-  
-  .hero-cta{
-  
-   } 
   
    .hero-cta h1{
     font-size: 40px;
@@ -183,6 +173,79 @@
     color: white;
     cursor: pointer;
   }
+
+
+
+
+
+  /* section exotic-animals */
+#exotic-animals{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 3rem 0;
+}
+
+
+
+.container-exotic-animals{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.card-exotic{
+    display: flex;
+    gap: 4px;
+}
+
+.card-exotic .image{
+    width: 100%;
+}
+
+.card-exotic .card-text{
+    width: 100%;
+}
+
+.description{
+    font-size: 13px;
+    color:#ffffff80;
+    line-height: 28px;
+}
+
+.card-text h5{
+    font-size: 22px;
+    padding-bottom: 0.5rem;
+}
+
+.card-exotic .image img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-exotic{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+/* padrão default */
+
+.line-full{
+    grid-column: 1/-1;
+}
+
+@media (max-width: 1090px){
+    .card-exotic{
+        display:flex;
+        flex-direction: column;
+    }
+}
   
   @media (max-width: 569px){
     .container-hero{
@@ -196,5 +259,23 @@
     font-size: 28px;
     text-align: center;
    }
+
+
+
+   /* card exotic */
+   .container-exotic-animals{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.card-exotic{
+    display:flex;
+    flex-direction: column;
+}
+
+.card-exotic img{
+    height: 200px;
+}
   }
    
