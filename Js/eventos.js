@@ -1,15 +1,13 @@
-const btnMenu = document.querySelector('.fa-bars')
-let navbar = document.querySelector('.navbar')
+ let btnMenu = document.querySelector('.fa-bars')
+let menu = document.querySelector('.menu')
 
-btnMenu.addEventListener("click", function () {
-  if (navbar.classList.contains('navbar')) {
-    navbar.classList.remove('navbar')
-    btnMenu.setAttribute('class', 'fa-solid fa-xmark')
- 
-  }
-  else {
-    navbar.classList.add('navbar')
-    btnMenu.setAttribute('class', 'fa-solid fa-bars')
-  }
+btnMenu.addEventListener('click', function(){
+    if(menu.classList.contains('show')){
+        menu.classList.remove('show')
+        btnMenu.setAttribute('class','fa-solid fa-xmark')
+    }
+    else{
+        menu.classList.add('show')
+        btnMenu.setAttribute('class','fa-solid fa-bars')
+    }
 })
-
