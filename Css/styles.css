@@ -8,7 +8,6 @@
   }
    
   body{
-    background: black;
     color: white;
   }
   
@@ -111,6 +110,7 @@
   
   /* section hero */
   
+  
   #hero{
     display: grid;
     grid-template-columns: 1fr;
@@ -183,6 +183,7 @@
     display: grid;
     grid-template-columns: 1fr;
     padding: 3rem 0;
+    background: black;
 }
 
 
@@ -227,8 +228,6 @@
 .card-exotic{
     overflow: hidden;
 }
-
-
 
 
 
