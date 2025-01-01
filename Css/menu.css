@@ -21,9 +21,8 @@ header{
     color:#4e3f30;
     padding: .5rem 0;
     box-shadow: 0 10px 10px #ccc;
-    position: static;
+    position: fixed;
     width: 100%;
-
 }
 
 /* to mobile */
