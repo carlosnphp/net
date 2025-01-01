@@ -11,9 +11,6 @@
     color: white;
   }
   
-  header{
-      background: #181661;
-  }
   
   .wrapper{
     max-width: 1200px;
@@ -33,68 +30,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  
-  .link-logo{ 
-    font-size: 50px;
-    font-weight: bold;
-    text-transform: capitalize;
-   }
-  
-  .navbar{
-    display: none;
-  }
-  
-  /* container menu hamburguer */
-  .fa-bars, .fa-xmark{
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 5px;
-    width: 40px;
-    height: 40px;
-    margin: 1rem;
-    padding: 5px;
-    background: tomato;
-  }
-  
-  /* efeito ao clicar no menu hamburguer */
-  .fa-bars:active{
-    opacity: .8;
-  }
-  
-  /* barrinha do menu */
-  .fa-bars span{
-    display: block;
-    width: 100%;
-    height: 4.6px;
-    padding: 2px;
-    background: white;
-    margin: 4px 20px;
-  }
-  
-  
-  nav{
-    padding: 1rem;
-    order: 3;
-    flex-basis: 100%;
-  }
-  
-  .link-items{
-    color: white;
-    font-size: 18px;
-    text-transform: capitalize;
-    display: block;
-    border-bottom: 1px solid white;
-    padding: 10px;
-  }
-  
-  .link-items:hover{
-    color: #0088fe;
-    transition: .3s;
-  }
-  
+
   .btn-link{
     background: tomato;
     border-radius: 10px;
@@ -102,14 +38,8 @@
     margin-top: .9rem;
   }
   
-  .btn-link:hover{
-    color: #0088fe;
-  }
-  
-  
   
   /* section hero */
-  
   
   #hero{
     display: grid;
