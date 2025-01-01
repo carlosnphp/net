@@ -12,6 +12,7 @@
 
         <!-- fonts -->
         <link rel="stylesheet" href="Css/fonts.css">
+        <link rel="stylesheet" href="Css/header">
 
         <!-- Styles da página -->
         <link rel="stylesheet" href="Css/styles.css">
@@ -19,32 +20,69 @@
 </head>
 
 <body>
+    <!---header--->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="Css/js.css">
+    <title>JS</title>
+</head>
+
+<body>
 
     <header>
 
         <div class="wrapper">
-            <div class="container-header">
-                <div class="link-logo">
-                    <i class="fa-solid fa-paw"></i>
-                    ZooK
-                </div>
 
-                <nav class="navbar" id="navbar">
+
+            <div class="navbar">
+
+
+                <a href="" class="link-logo">
+                    <span class="fa-solid fa-bolt"></span>
+                    <span>Html</span>
+                </a>
+
+
+                <div class="menu show">
                     <ul>
-                        <li> <a href="" class="link-items"> home </a></li>
-                        <li> <a href="" class="link-items"> quem somos </a></li>
-                        <li> <a href="" class="link-items"> serviços </a></li>
-                        <li> <a href="" class="link-items"> contatos </a></li>
-                        <li> <a href="" class="link-items btn-link"> cadastre-se </a></li>
+                        <li><a href="js.html" class="link-items link-actived">Home</a></li>
+                        <li><a href="#footer" class="link-items">Serviços</a></li>
+                        <li><a href="#portfolio" class="link-items">Portfolio</a></li>
+                        <li><a href="#quemSomos" class="link-items">Quem somos</a></li>
+                        <li><a href="#register" class="link-items">Cadastre-se</a></li>
                     </ul>
-                </nav>
-
-                <div class="icone">
-                    <i class="fa-solid fa-bars"></i>
                 </div>
-            </div>
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div> 
         </div>
     </header>
+ 
+
+    <script src="menu.js"></script>
+</body>
+
+</html>
+    <!---fim do header--->
+
+
+
+
+
+
+
+
+    
 
     <section class="bg-verdin" id="hero">
         <div class="wrapper-cta">
